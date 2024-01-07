@@ -22,6 +22,12 @@
   font-size: 20px;
   font-weight: 600;
   padding: 20px 25px;
+  cursor: pointer;
+}
+.bold-style {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
 }
 /* header start */
 header {
@@ -72,8 +78,43 @@ ul li a {
   font-weight: 400;
   margin-bottom: 2rem;
 }
-.banner-img{
-    width: 100%;
-    margin: 50px 0px;
+.banner-img {
+  width: 100%;
+  margin: 50px 0px;
 }
 /* header end */
+
+/* main start */
+/* ....... */
+
+/* features section start*/
+.features {
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.features-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.feature-title {
+  color: #727272;
+  font-size: 45px;
+  font-weight: 500;
+}
+.feature-title .orange-color {
+  color: #ff900e;
+}
+.features-desc {
+  margin: 24px 0px 32px 0px;
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* features section end*/
+
+/* ....... */
+/* main end */
