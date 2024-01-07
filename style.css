@@ -37,7 +37,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding-top: 50px;
   padding-bottom: 80px;
 }
@@ -62,7 +61,7 @@ ul li a {
 }
 
 .banner-content {
-  /* max-width: 800px; */
+  max-width: 700px;
   margin: 0 auto;
   text-align: center;
 }
@@ -99,6 +98,8 @@ ul li a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
+  /* justify-content: center;
+  align-items: center; */
 }
 .feature-title {
   color: #727272;
@@ -118,3 +119,29 @@ ul li a {
 
 /* ....... */
 /* main end */
+
+/* responsive devices */
+/* mobile */
+@media screen and (max-width: 575px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .banner-title{
+        font-size: 2.5rem;
+    }
+    main{
+        padding: 50px;
+    }
+    .features{
+        flex-direction: column;
+        text-align: center;
+    }
+    .features-img{
+        grid-template-columns: 1fr;
+    }
+}
